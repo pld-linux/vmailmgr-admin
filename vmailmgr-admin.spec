@@ -21,7 +21,7 @@ This is very simple interface for administering vmailmgr (virtualizing
 POP3 password interface).
 
 %description -l pl
-Prosty interfejs do administorowania vmailmgr (wirtualizuj±cym
+Prosty interfejs do administrowania vmailmgr (wirtualizuj±cym
 interfejsem hase³ POP3).
 
 %prep
