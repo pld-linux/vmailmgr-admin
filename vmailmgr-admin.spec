@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.xmedia.net/software/%{name}-%{version}.tar.gz
+# Source0-md5:	4b48a49ed6faaa4656de662d1dfa69b2
 Patch0:		%{name}.restartqmail.patch
 URL:		http://em.ca/~bruceg/vmailmgr/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
