@@ -42,7 +42,6 @@ install -d $RPM_BUILD_ROOT%{_datadir}/doc/%{name}
 install php/* $RPM_BUILD_ROOT/home/httpd/html/vmailmgr-admin/
 install c/{adduser,deluser,domainsetup,maildirmake,restartqmail} $RPM_BUILD_ROOT/home/httpd/cgi-bin/
 
-gzip -9nf {INSTALL,README,COPYING}
 
 %post
 echo -n "In cgi-bin you will find new files: adduser,deluser,domainsetup,maildirmake,restartqmail"
@@ -53,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc {INSTALL,README,COPYING}
 %attr(755,httpd,httpd) /home/httpd/cgi-bin/*
 %attr(755,httpd,httpd) /home/httpd/html/%{name}/*
