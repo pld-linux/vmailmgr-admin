@@ -6,8 +6,8 @@ License:	GPL
 Group:		Applications/System
 Group(de):	Applikationen/System
 Group(pl):	Aplikacje/System
-SOURCE:		http://www.xmedia.net/software/vmailmgr-admin-%{version}.tar.gz
-Patch:		vmailmgr-admin.restartqmail.patch
+Source0:	http://www.xmedia.net/software/%{name}-%{version}.tar.gz
+Patch0:		%{name}.restartqmail.patch
 #URL:		http://em.ca/~bruceg/vmailmgr/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Requires:	php
@@ -35,7 +35,7 @@ cd ..
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT/{home/httpd/{cgi-bin,html/vmailmgr-admin}}
-install -d $RPM_BUILD_ROOT/usr/share/doc/%{name}
+install -d $RPM_BUILD_ROOT%{_datadir}/doc/%{name}
 install php/* $RPM_BUILD_ROOT/home/httpd/html/vmailmgr-admin/
 install c/{adduser,deluser,domainsetup,maildirmake,restartqmail} $RPM_BUILD_ROOT/home/httpd/cgi-bin/
 
