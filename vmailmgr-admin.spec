@@ -5,8 +5,6 @@ Version:	0.97
 Release:	1
 License:	GPL
 Group:		Applications/System
-Group(de):	Applikationen/System
-Group(pl):	Aplikacje/System
 Source0:	http://www.xmedia.net/software/%{name}-%{version}.tar.gz
 Patch0:		%{name}.restartqmail.patch
 URL:		http://em.ca/~bruceg/vmailmgr/
