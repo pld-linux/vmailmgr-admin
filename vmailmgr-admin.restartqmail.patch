@@ -1,0 +1,10 @@
+--- c/restartqmail.c~	Tue Aug 21 15:13:04 2001
++++ c/restartqmail.c	Thu Aug 23 19:46:00 2001
+@@ -5,5 +5,6 @@
+ #include "defines.h"
+ 
+ int main() {
+-	execle("/usr/local/bin/svc", "/usr/local/bin/svc", "-h", "/service/qmail", NULL, NULL);
++//	execle("/usr/local/bin/svc", "/usr/local/bin/svc", "-h", "/service/qmail", NULL, NULL);
++	execle("/bin/bash", "-c /etc/rc.d/init.d/qmail restart", NULL, NULL);
+ }
