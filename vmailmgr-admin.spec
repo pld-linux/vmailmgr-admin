@@ -28,7 +28,7 @@ interfejsem hase³ POP3).
 
 %prep
 %setup -q
-%patch -p0
+%patch0 -p0
 
 %build
 cd c
