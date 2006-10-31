@@ -1,3 +1,4 @@
+# TODO: use webapps framework
 Summary:	Simple administration tools for vmailmgr
 Summary(pl):	Proste narzêdzie administracyjne do vmailmgr
 Name:		vmailmgr-admin
