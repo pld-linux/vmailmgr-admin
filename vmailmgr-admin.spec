@@ -10,10 +10,10 @@ Source0:	http://www.xmedia.net/software/%{name}-%{version}.tar.gz
 # Source0-md5:	4b48a49ed6faaa4656de662d1dfa69b2
 Patch0:		%{name}.restartqmail.patch
 URL:		http://em.ca/~bruceg/vmailmgr/
-Requires:	php
 Requires:	qmail
 Requires:	vmailmgrd
 Requires:	webserver
+Requires:	webserver(php)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		appdir		/home/services/httpd/html/vmailmgr-admin
