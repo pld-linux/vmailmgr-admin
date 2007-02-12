@@ -1,6 +1,6 @@
 # TODO: use webapps framework
 Summary:	Simple administration tools for vmailmgr
-Summary(pl):	Proste narzêdzie administracyjne do vmailmgr
+Summary(pl.UTF-8):   Proste narzÄ™dzie administracyjne do vmailmgr
 Name:		vmailmgr-admin
 Version:	0.97
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is very simple interface for administering vmailmgr (virtualizing
 POP3 password interface).
 
-%description -l pl
-Prosty interfejs do administrowania vmailmgr (wirtualizuj±cym
-interfejsem hase³ POP3).
+%description -l pl.UTF-8
+Prosty interfejs do administrowania vmailmgr (wirtualizujÄ…cym
+interfejsem haseÅ‚ POP3).
 
 %prep
 %setup -q
