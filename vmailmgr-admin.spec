@@ -1,6 +1,6 @@
 # TODO: use webapps framework
 Summary:	Simple administration tools for vmailmgr
-Summary(pl.UTF-8):   Proste narzędzie administracyjne do vmailmgr
+Summary(pl.UTF-8):	Proste narzędzie administracyjne do vmailmgr
 Name:		vmailmgr-admin
 Version:	0.97
 Release:	1
