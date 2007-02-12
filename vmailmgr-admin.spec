@@ -6,10 +6,10 @@ Version:	0.97
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://www.xmedia.net/software/%{name}-%{version}.tar.gz
+Source0:	http://untroubled.org/vmailmgr/current/%{name}-%{version}.tar.gz
 # Source0-md5:	4b48a49ed6faaa4656de662d1dfa69b2
 Patch0:		%{name}.restartqmail.patch
-URL:		http://em.ca/~bruceg/vmailmgr/
+URL:		http://untroubled.org/vmailmgr/
 Requires:	qmail
 Requires:	vmailmgrd
 Requires:	webserver
